@@ -93,8 +93,9 @@ line-height: 25px;
 
 .featured-img{
   display: flex;
-   margin-top: 50px;
+   margin-top: 60px;
   justify-content: space-between;
+  gap: 30px;
   
 }
 .featured-first-img {
@@ -130,4 +131,87 @@ height: 388px;
  
 }
 
+.featured-text{
+  color: #272727;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-top: 16px;
+} 
 
+/* delivery */
+.delivery{
+  display: flex;
+  justify-content: space-around;
+ margin: 20px 70px;
+ background: #2727270D;
+ padding: 40px 0;
+ border-radius: 10px;
+ 
+}
+.delibery-main{
+  text-align: center;
+}
+.delibery-main img{
+ height: 70px;
+}
+
+/* sale */
+.sale{
+  display: flex;
+  background: rgba(229, 84, 115, 0.05);
+  align-items: center;
+  margin: 60px 0;
+}
+
+.sale-text {
+  margin-left: 80px;
+  text-align: center;
+  margin-top: 80px;
+  padding: 100px 0;
+ 
+}
+.sale-text h3{
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.sale-text p{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+margin-top: 20px;
+}
+.sale-text button{
+  margin: 20px;
+  padding: 15px 35px;
+}
+.sale-img{
+
+  margin-left: 150px;
+}
+
+
+
+/* instagram */
+.instagram{
+  margin-bottom: 70px;
+}
+.instagram p{
+  margin-top: 20px;
+}
+
+.instagram-img{
+  display: flex;
+  height: 310px;
+  margin: 0 70px;
+  margin-top: 50px;
+  gap: 22px;
+}
+
+/* deal */
+.deal{
+  
+}
