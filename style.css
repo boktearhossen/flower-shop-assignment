@@ -35,12 +35,14 @@ border-radius: 6px;
   font-weight: 800;
   margin-left: 70px;
   padding: 10px 0;
+  color: rgb(54, 45, 45);
 }
 .nav span{
   color: #E55473;
 }
 .nav-link ul{
   display: flex;
+  margin-right: 20px;
 }
 .nav-link ul li{
   list-style: none;
@@ -48,8 +50,9 @@ border-radius: 6px;
 .nav-link ul li a{
   text-decoration: none;
   margin-right: 50px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
+  color: #E55473;
 }
 
 
